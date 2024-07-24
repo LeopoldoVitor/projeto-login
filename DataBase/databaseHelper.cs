@@ -60,10 +60,5 @@ namespace windowsFormsTeste.Comandos
 
             sqlConn.Close();
         }
-
-        public void Testando()
-        {
-            MessageBox.Show("apenas um teste");
-        }
     }
 }
