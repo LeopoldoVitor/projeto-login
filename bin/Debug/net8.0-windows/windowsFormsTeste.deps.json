@@ -9,8 +9,7 @@
       "windowsFormsTeste/1.0.0": {
         "dependencies": {
           "System.Data.SqlClient": "4.8.6",
-          "Smart.Database": "1.16.2.14024",
-          "Tutorial.DbConnection": "1.0.0.0"
+          "Smart.Database": "1.16.2.14024"
         },
         "runtime": {
           "windowsFormsTeste.dll": {}
@@ -98,14 +97,6 @@
             "fileVersion": "1.16.2.14024"
           }
         }
-      },
-      "Tutorial.DbConnection/1.0.0.0": {
-        "runtime": {
-          "Tutorial.DbConnection.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -179,11 +170,6 @@
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
     "Smart.Database/1.16.2.14024": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Tutorial.DbConnection/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

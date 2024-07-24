@@ -16,9 +16,6 @@
     <Reference Include="Smart.Database">
       <HintPath>..\..\..\Users\vitor.leopoldo\Downloads\TutorialBancoDeDados\TutorialBancoDeDados\Library\Smart.Database.dll</HintPath>
     </Reference>
-    <Reference Include="Tutorial.DbConnection">
-      <HintPath>..\..\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

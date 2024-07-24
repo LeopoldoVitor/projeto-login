@@ -57,14 +57,14 @@
             // menuSair
             // 
             menuSair.Name = "menuSair";
-            menuSair.Size = new Size(224, 26);
+            menuSair.Size = new Size(190, 26);
             menuSair.Text = "sair";
             menuSair.Click += menuSair_Click;
             // 
             // voltarAoLoginToolStripMenuItem
             // 
             voltarAoLoginToolStripMenuItem.Name = "voltarAoLoginToolStripMenuItem";
-            voltarAoLoginToolStripMenuItem.Size = new Size(224, 26);
+            voltarAoLoginToolStripMenuItem.Size = new Size(190, 26);
             voltarAoLoginToolStripMenuItem.Text = "Voltar ao login";
             voltarAoLoginToolStripMenuItem.Click += voltarAoLoginToolStripMenuItem_Click;
             // 
@@ -80,6 +80,7 @@
             listarUsuariosCadastradosToolStripMenuItem.Name = "listarUsuariosCadastradosToolStripMenuItem";
             listarUsuariosCadastradosToolStripMenuItem.Size = new Size(273, 26);
             listarUsuariosCadastradosToolStripMenuItem.Text = "Listar Usuarios Cadastrados";
+            listarUsuariosCadastradosToolStripMenuItem.Click += listarUsuariosCadastradosToolStripMenuItem_Click;
             // 
             // menu
             // 

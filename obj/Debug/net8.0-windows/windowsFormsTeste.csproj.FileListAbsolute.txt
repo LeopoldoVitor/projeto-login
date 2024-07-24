@@ -19,11 +19,11 @@ C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\obj\Debug\net8.0-windows\wind
 C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\obj\Debug\net8.0-windows\windowsFormsTeste.csproj.AssemblyReference.cache
 C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\bin\Debug\net8.0-windows\Smart.Database.dll
 C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\obj\Debug\net8.0-windows\windowsFormsTeste.csproj.CopyComplete
-C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\bin\Debug\net8.0-windows\Tutorial.DbConnection.dll
-C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\bin\Debug\net8.0-windows\Tutorial.DbConnection.pdb
 C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
 C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
 C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
 C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
 C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\obj\Debug\net8.0-windows\windowsFormsTeste.Telas.FormExibirUsuarios.resources
+C:\WindowsForm\windowsFormsTeste\windowsFormsTeste\obj\Debug\net8.0-windows\windowsFormsTeste.sourcelink.json
