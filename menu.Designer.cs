@@ -32,15 +32,13 @@
             cadastroToolStripMenuItem = new ToolStripMenuItem();
             menuSair = new ToolStripMenuItem();
             voltarAoLoginToolStripMenuItem = new ToolStripMenuItem();
-            aDMToolStripMenuItem = new ToolStripMenuItem();
-            listarUsuariosCadastradosToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { cadastroToolStripMenuItem, aDMToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { cadastroToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 28);
@@ -68,6 +66,8 @@
             voltarAoLoginToolStripMenuItem.Text = "Voltar ao login";
             voltarAoLoginToolStripMenuItem.Click += voltarAoLoginToolStripMenuItem_Click;
             // 
+<<<<<<< HEAD
+=======
             // aDMToolStripMenuItem
             // 
             aDMToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { listarUsuariosCadastradosToolStripMenuItem });
@@ -82,6 +82,7 @@
             listarUsuariosCadastradosToolStripMenuItem.Text = "Listar Usuarios Cadastrados";
             listarUsuariosCadastradosToolStripMenuItem.Click += listarUsuariosCadastradosToolStripMenuItem_Click;
             // 
+>>>>>>> desenvolvimento
             // menu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -103,7 +104,5 @@
         private ToolStripMenuItem cadastroToolStripMenuItem;
         private ToolStripMenuItem menuSair;
         private ToolStripMenuItem voltarAoLoginToolStripMenuItem;
-        private ToolStripMenuItem aDMToolStripMenuItem;
-        private ToolStripMenuItem listarUsuariosCadastradosToolStripMenuItem;
     }
 }

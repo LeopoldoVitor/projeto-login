@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
+            btnTeste = new Button();
             btnEntrar = new Button();
             btnCadastrar = new Button();
             label2 = new Label();
@@ -40,6 +41,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(btnTeste);
             groupBox1.Controls.Add(btnEntrar);
             groupBox1.Controls.Add(btnCadastrar);
             groupBox1.Controls.Add(label2);
@@ -48,14 +50,23 @@
             groupBox1.Controls.Add(txtUsuarioLogin);
             groupBox1.Location = new Point(18, 20);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(381, 235);
+            groupBox1.Size = new Size(486, 327);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Login";
             // 
+            // btnTeste
+            // 
+            btnTeste.Location = new Point(356, 283);
+            btnTeste.Name = "btnTeste";
+            btnTeste.Size = new Size(94, 29);
+            btnTeste.TabIndex = 6;
+            btnTeste.Text = "testar";
+            btnTeste.UseVisualStyleBackColor = true;
+            // 
             // btnEntrar
             // 
-            btnEntrar.Location = new Point(257, 172);
+            btnEntrar.Location = new Point(356, 177);
             btnEntrar.Name = "btnEntrar";
             btnEntrar.Size = new Size(94, 29);
             btnEntrar.TabIndex = 5;
@@ -65,7 +76,7 @@
             // 
             // btnCadastrar
             // 
-            btnCadastrar.Location = new Point(147, 172);
+            btnCadastrar.Location = new Point(257, 177);
             btnCadastrar.Name = "btnCadastrar";
             btnCadastrar.Size = new Size(94, 29);
             btnCadastrar.TabIndex = 4;
@@ -110,7 +121,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(415, 266);
+            ClientSize = new Size(522, 364);
             Controls.Add(groupBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
@@ -132,5 +143,6 @@
         private Label label1;
         private TextBox txtSenhaLogin;
         private TextBox txtUsuarioLogin;
+        private Button btnTeste;
     }
 }
