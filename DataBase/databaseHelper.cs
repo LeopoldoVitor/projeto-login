@@ -90,7 +90,10 @@ namespace windowsFormsTeste.Comandos
             sqlConn.Close();
         }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> desenvolvimento
         public void DeleteUsuario(int userId)
         {
             sqlConn = new SqlConnection(connectionString);
