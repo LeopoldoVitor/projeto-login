@@ -46,6 +46,35 @@ namespace windowsFormsTeste.Comandos
             return resultSenha;
         }
 
+        public List<Usuario> GetLstUsuarios()
+        {
+            List<Usuario> lstUsuarios = new List<Usuario>();
+
+            using (SqlConnection sqlConn = new SqlConnection(connectionString))
+            {
+                sqlConn.Open();
+
+                string query = "SELECT Id, Nome FROM Usuarios";
+                using (SqlCommand command = new SqlCommand(query, sqlConn))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Usuario usuario = new Usuario
+                            {
+                                Codigo = reader.GetInt32(reader.GetOrdinal("Id")),
+                                Nome = reader.GetString(reader.GetOrdinal("Nome"))
+                            };
+                            lstUsuarios.Add(usuario);
+                        }
+                    }
+                }
+            }
+
+            return lstUsuarios;
+        }
+
         public void SetCadastroDb(string txtUsuarioCadastroDb, string txtSenhaCadastroDb)
         {
             sqlConn = new SqlConnection(connectionString);
@@ -59,6 +88,27 @@ namespace windowsFormsTeste.Comandos
             InsertDb.ExecuteNonQuery();
 
             sqlConn.Close();
+        }
+
+
+        public void DeleteUsuario(int userId)
+        {
+            sqlConn = new SqlConnection(connectionString);
+                sqlConn.Open();
+
+                string query = "DELETE FROM Usuarios WHERE Id = @Id";
+                using (SqlCommand cmd = new SqlCommand(query, sqlConn))
+                {
+                    cmd.Parameters.AddWithValue("@Id", userId);
+                    cmd.ExecuteNonQuery();
+                }
+
+                sqlConn.Close(); 
+        }
+
+        public void Testando()
+        {
+            MessageBox.Show("apenas um teste");
         }
     }
 }

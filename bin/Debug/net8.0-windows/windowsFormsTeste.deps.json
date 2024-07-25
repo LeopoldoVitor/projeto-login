@@ -8,9 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "windowsFormsTeste/1.0.0": {
         "dependencies": {
-          "System.Data.SqlClient": "4.8.6",
-          "Smart.Database": "1.16.2.14024",
-          "Tutorial.DbConnection": "1.0.0.0"
+          "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
           "windowsFormsTeste.dll": {}
@@ -90,23 +88,7 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
-      "System.Security.Principal.Windows/4.7.0": {},
-      "Smart.Database/1.16.2.14024": {
-        "runtime": {
-          "Smart.Database.dll": {
-            "assemblyVersion": "1.16.2.14024",
-            "fileVersion": "1.16.2.14024"
-          }
-        }
-      },
-      "Tutorial.DbConnection/1.0.0.0": {
-        "runtime": {
-          "Tutorial.DbConnection.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      }
+      "System.Security.Principal.Windows/4.7.0": {}
     }
   },
   "libraries": {
@@ -177,16 +159,6 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
-    },
-    "Smart.Database/1.16.2.14024": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Tutorial.DbConnection/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wtu/PmUl7O00L2GuzbM/MENBKVDI+HhlU8rE3WT0DfA9E4eHtU//AHmoADmJbpV7Me7eantsOhvV9ijoStOyrw==",
+  "dgSpecHash": "o7YisNjkxZmsD5jTrMeY3UPE+j/hEFeJ+tJTUk6wb+qUVkj1QL2iPrHFbzmpkP5s0FwM6ZKnWyLVd6FfcT3PFw==",
   "success": true,
-  "projectFilePath": "C:\\WindowsForm\\windowsFormsTeste\\windowsFormsTeste\\windowsFormsTeste.csproj",
+  "projectFilePath": "C:\\git\\WindowsForm\\windowsFormsTeste\\windowsFormsTeste\\windowsFormsTeste.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitor.leopoldo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\vitor.leopoldo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

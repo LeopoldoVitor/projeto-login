@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using windowsFormsTeste.Telas;
 
 namespace windowsFormsTeste
 {
@@ -28,6 +29,12 @@ namespace windowsFormsTeste
             this.Hide();
             login.Show();
 
+        }
+
+        private void listarUsuariosCadastradosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormExibirUsuarios formExibirUsuarios = new FormExibirUsuarios();
+            formExibirUsuarios.Show();
         }
     }
 }
