@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WindowsForm\\windowsFormsTeste\\windowsFormsTeste\\windowsFormsTeste.csproj",
+      "projectUniqueName": "C:\\git\\WindowsForm\\windowsFormsTeste\\windowsFormsTeste\\windowsFormsTeste.csproj",
       "projectName": "windowsFormsTeste",
-      "projectPath": "C:\\WindowsForm\\windowsFormsTeste\\windowsFormsTeste\\windowsFormsTeste.csproj",
+      "projectPath": "C:\\git\\WindowsForm\\windowsFormsTeste\\windowsFormsTeste\\windowsFormsTeste.csproj",
       "packagesPath": "C:\\Users\\vitor.leopoldo\\.nuget\\packages\\",
-      "outputPath": "C:\\WindowsForm\\windowsFormsTeste\\windowsFormsTeste\\obj\\",
+      "outputPath": "C:\\git\\WindowsForm\\windowsFormsTeste\\windowsFormsTeste\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vitor.leopoldo\\AppData\\Roaming\\NuGet\\NuGet.Config",

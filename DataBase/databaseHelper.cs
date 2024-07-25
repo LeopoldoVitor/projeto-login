@@ -90,6 +90,21 @@ namespace windowsFormsTeste.Comandos
             sqlConn.Close();
         }
 
+        public void DeleteUsuario(int userId)
+        {
+            sqlConn = new SqlConnection(connectionString);
+                sqlConn.Open();
+
+                string query = "DELETE FROM Usuarios WHERE Id = @Id";
+                using (SqlCommand cmd = new SqlCommand(query, sqlConn))
+                {
+                    cmd.Parameters.AddWithValue("@Id", userId);
+                    cmd.ExecuteNonQuery();
+                }
+
+                sqlConn.Close(); 
+        }
+
         public void Testando()
         {
             MessageBox.Show("apenas um teste");

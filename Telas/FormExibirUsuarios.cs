@@ -29,15 +29,31 @@ namespace windowsFormsTeste.Telas
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
-        {
-            databaseHelper dbHelper = new databaseHelper();
-            List<Usuario> lstUsuarios = dbHelper.GetLstUsuarios();
+        {        
+                if (dataGridView1.SelectedRows.Count > 0)
+                {
+                    if (DialogResult.Yes == MessageBox.Show("Tem certeza que deseja excluir este usuário?", "Confirmação",
+                         MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                    {
+                        int selectedRowIndex = dataGridView1.SelectedRows[0].Index;
+                        int userId = Convert.ToInt32(dataGridView1.Rows[selectedRowIndex].Cells["Codigo"].Value);
 
-            for (var i = 0; i < lstUsuarios.Count; i++)
-            {
-                
-            }
+                        databaseHelper dbHelper = new databaseHelper();
+                        dbHelper.DeleteUsuario(userId);
 
+                        // Atualiza a lista de usuários após a exclusão
+                        listarUsuarios();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Exclusão cancelada!");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Selecione um usuário para excluir.");
+                }
+            
         }
     }
 }
